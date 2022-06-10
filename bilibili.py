@@ -1,5 +1,5 @@
-from pathlib import Path
-from numpy import fromfile, uint8
+from pathlib import Path  # Python自带库
+from numpy import fromfile, uint8  # pip install numpy
 
 ROOT = Path(__file__).resolve().parent  # 脚本文件的父文件夹的绝对路径
 
